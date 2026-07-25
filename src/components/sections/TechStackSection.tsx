@@ -21,17 +21,17 @@ export function TechStackSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             {
-              title: "AI / ML",
-              tools: ["Python", "Explainable AI (XAI)", "OpenCV"],
+              title: "Core Computer Science & Paradigms",
+              tools: ["Data Structures and Algorithms (DSA)", "Object-Oriented Programming (OOPs)", "DataBase Management (DBMS)", "System Design and Architecture"],
             },
             {
-              title: "Frontend",
-              tools: ["Next.js / React", "Tailwind CSS", "Streamlit"],
+              title: "Specialized AI/ML",
+              tools: ["Computer Vision (CV)", "Explainable AI (XAI)", "Natural Language Processing (NLP)", "Large Language Models (LLMs)", "Machine Learning Operations (MLOps)"],
             },
-            { title: "Backend", tools: ["FastAPI", "Node.js", "REST APIs"] },
+            { title: "AI/ML Technologies", tools: ["Machine Learning", "Deep Learning", "Reinforcement Learning",  "TensorFlow/PyTorch", "Scikit-learn"] },
             {
-              title: "Fundamentals",
-              tools: ["Data Structures", "Java (DSA)", "Git / CI-CD"],
+              title: "Devops & Software Engineering",
+              tools: ["Git / GitHub", "GitHub Actions", "Docker", "Kubernetes", "CI/CD Pipelines", "Cloud Platforms (GCP/AWS)"],
             },
           ].map((category, idx) => (
             <FadeIn
