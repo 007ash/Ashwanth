@@ -33,7 +33,7 @@ export function HeroSection() {
         </FadeIn>
 
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight font-heading">
-          <StaggeredText text="Hi, I'm Ashwanth SenthilKumar" delay={0.2} />
+          <StaggeredText text="Hi, I'm Ashwanth" delay={0.2} />
           <span >
             <FadeIn delay={0.8} direction="up">
               I build intelligent systems.
@@ -112,8 +112,8 @@ export function HeroSection() {
             <div className="hero-hexagon-shell relative w-full h-full transition-transform duration-500">
               <div className="hero-hexagon-image relative w-full h-full overflow-hidden m-auto p-1 rounded-[45%] bg-gradient-to-tr from-primary/10 to-primary/30 shadow-lg shadow-primary/25 group-hover:scale-105 transition-transform duration-700">
                 <Image
-                  src="/profile.png"
-                  alt="Ashwanth Senthilkumar"
+                  src="/profile-for-hero.png"
+                  alt="Ashwanth"
                   fill
                   sizes="(max-width: 768px) 80vw, (max-width: 1200px) 40vw, 400px"
                   className="object-cover object-center transition-all duration-700 ease-out group-hover:scale-110 group-hover:brightness-105"
