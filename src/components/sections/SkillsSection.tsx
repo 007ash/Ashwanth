@@ -1,60 +1,47 @@
-import {
-  ArrowRight,
-  Award,
-  Brain,
-  Code,
-  Database,
-  Layout,
-  Terminal,
-} from "lucide-react";
+import {ArrowRight, Award, Brain, Code, Database, Layout, Terminal,BarChart3,} from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { FadeIn } from "@/components/ui/fade-in";
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+import {Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger,} from "@/components/ui/dialog";
 
 const skillCategories = [
   {
-    title: "Artificial Intelligence & ML",
-    icon: <Brain className="h-5 w-5 text-primary" />,
+    title: "Programming Languages",
+    icon: <Code className="h-5 w-5 text-primary" />,
     skills: [
       "Python",
-      "TensorFlow",
-      "PyTorch",
-      "Computer Vision",
-      "Explainable AI (XAI)",
-      "Scikit-Learn",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "R",
+      "C/C++",
     ],
   },
   {
     title: "Frontend Development",
     icon: <Layout className="h-5 w-5 text-primary" />,
     skills: [
+      "HTML5",
+      "CSS3",
       "React.js",
-      "Next.js 15",
+      "Next.js",
       "TypeScript",
       "Tailwind CSS",
-      "Figma",
-      "Framer Motion",
     ],
   },
   {
     title: "Backend & Systems",
     icon: <Database className="h-5 w-5 text-primary" />,
     skills: [
-      "Node.js",
-      "FastAPI",
+      "MySQL",
       "PostgreSQL",
       "MongoDB",
+      "FastAPI",
+      "Spring Boot",
       "REST APIs",
-      "Prisma ORM",
+      "API Integration",
     ],
   },
   {
@@ -65,8 +52,33 @@ const skillCategories = [
       "Docker",
       "CI/CD Pipelines",
       "Vercel",
-      "Linux",
+      "GCP (Cloud Run/Firestore)",
       "AWS (EC2/S3)",
+    ],
+  },
+  {
+    title: "AI & Machine Learning",
+    icon: <Brain className="h-5 w-5 text-primary" />,
+    skills: [
+      "Pytorch",
+      "OpenCV",
+      "XGBoost/LightGBM",
+      "Langchain",
+      "Hugging Face",
+      "MLflow",
+    ],
+  },
+  {
+    title: "Data Science & Analytics",
+    icon: <BarChart3 className="h-5 w-5 text-primary" />,
+    skills: [
+      "Numpy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Streamlit",
+      "Jupyter Notebook",
+      "EDA ",
     ],
   },
 ];
@@ -75,16 +87,16 @@ const certificates = [
   {
     id: "cert-1",
     title: "Machine Learning Specialization",
-    issuer: "Coursera / DeepLearning.AI",
-    date: "Aug 2024",
-    image: "/certificates/machine-learning-certification.jpg",
+    issuer: "Coursera / DeepLearning.AI / Stanford Online",
+    date: "June 2025",
+    image: "/certificates/Machine-Learning-Specialization-Certificate.png",
   },
   {
     id: "cert-2",
-    title: "Python for Everybody Specialization",
+    title: "Citizen Data Science using Python Certification",
     issuer: "Infosys Springboard",
-    date: "Jan 2025",
-    image: "/certificates/python-certification.jpg",
+    date: "Aug 2025",
+    image: "/certificates/Citizen-Data-Science-using-Python-Certication.png",
   },
 ];
 
