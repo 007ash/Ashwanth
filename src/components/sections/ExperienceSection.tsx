@@ -1,11 +1,4 @@
-import {
-  ArrowRight,
-  Briefcase,
-  Code,
-  Presentation,
-  Rocket,
-  Trophy,
-} from "lucide-react";
+import {ArrowRight, Briefcase, Code, Presentation, Rocket, Trophy,} from "lucide-react";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -16,9 +9,18 @@ const experiences = [
     id: "exp-1",
     role: "Machine Learning Intern",
     company: "Qono Technologies",
-    date: "2025 - 2026",
+    date: "May 2025 - June 2025",
     description:
-      "Developed and optimized machine learning models. Applied theoretical ML concepts to real-world datasets, focusing on predictive accuracy and efficient data pipelines.",
+      "Engineered end-to-end machine learning systems, developing a production ready IoT malware classifier using Random Forest and SVM alongside scalable recommendation engines powered by collaborative filtering and  TF-DF.",
+    icon: <Briefcase className="h-5 w-5 text-primary" />,
+  },
+  {
+    id: "exp-2",
+    role: "AI/ML Intern",
+    company: "Issential Solutions",
+    date: "December 2025",
+    description:
+      "Integrated Explainable AI (SHAP, LIME) into classification pipelines to optimize model interpretability, engineering visual feature-attribution reports (waterfall and force plots) that translated complex black-box predictions for key stakeholders.",
     icon: <Briefcase className="h-5 w-5 text-primary" />,
   },
 ];
