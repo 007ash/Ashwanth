@@ -1,5 +1,5 @@
-import {ArrowRight, Briefcase, Code, Presentation, Rocket, Trophy,} from "lucide-react";
-import {GraduationCap} from "lucide-react";
+import {ArrowRight, Code, Presentation, Trophy,} from "lucide-react";
+import {GraduationCap, IdCardLanyard} from "lucide-react";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -13,7 +13,7 @@ const experiences = [
     date: "May 2025 - June 2025",
     description:
       "Engineered end-to-end machine learning systems, developing a production ready IoT malware classifier using Random Forest and SVM alongside scalable recommendation engines powered by collaborative filtering and  TF-DF.",
-    icon: <Briefcase className="h-5 w-5 text-primary" />,
+    icon: <IdCardLanyard className="h-5 w-5 text-primary" />,
   },
   {
     id: "exp-2",
@@ -22,7 +22,7 @@ const experiences = [
     date: "December 2025",
     description:
       "Integrated Explainable AI (SHAP, LIME) into classification pipelines to optimize model interpretability, engineering visual feature-attribution reports (waterfall and force plots) that translated complex black-box predictions for key stakeholders.",
-    icon: <Briefcase className="h-5 w-5 text-primary" />,
+    icon: <IdCardLanyard className="h-5 w-5 text-primary" />,
   },
 ];
 
