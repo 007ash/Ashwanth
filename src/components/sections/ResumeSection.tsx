@@ -1,4 +1,4 @@
-import { Download, FileText, Eye } from "lucide-react";
+import { Download, FileUser, Eye } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { FadeIn } from "@/components/ui/fade-in";
@@ -10,6 +10,7 @@ export function ResumeSection() {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-transparent pointer-events-none" />
 
         <div className="flex flex-col gap-4 relative z-10 text-center md:text-left">
+          <FileUser className="h-8 w-8 text-primary" />
           <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight">
             Download My Resume
           </h2>
@@ -19,23 +20,11 @@ export function ResumeSection() {
           </p>
         </div>
 
-        <div className="relative z-10 shrink-0 flex flex-col sm:flex-row gap-3">
+        <div className="relative z-10 shrink-0 grid sm:flex-row gap-3">
           <Button
             asChild
             size="lg"
-            className="font-semibold shadow-lg shadow-primary/25 rounded-full px-8 py-6 h-auto text-lg group"
-          >
-            <Link href="/resume">
-              <Eye className="mr-3 h-6 w-6 group-hover:-translate-y-1 transition-transform" />
-              View Resume
-            </Link>
-          </Button>
-
-          <Button
-            asChild
-            size="lg"
-            variant="outline"
-            className="font-semibold rounded-full px-8 py-6 h-auto text-lg group"
+            className="font-semibold rounded-full px-8 py-6 text-lg group"
           >
             <a
               href="/Ashwanth_Senthilkumar.pdf"
@@ -44,6 +33,13 @@ export function ResumeSection() {
               <Download className="mr-3 h-6 w-6 group-hover:-translate-y-1 transition-transform" />
               Download CV
             </a>
+          </Button>
+          <Button asChild size="lg" variant="outline"
+          className="font-semibold rounded-full px-8 py-6 text-lg group">
+            <Link href="/resume">
+              <Eye className="mr-3 h-6 w-6 group-hover:-translate-y-1 transition-transform" />
+              View Resume
+            </Link>
           </Button>
         </div>
       </FadeIn>
