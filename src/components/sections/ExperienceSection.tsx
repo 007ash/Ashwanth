@@ -1,4 +1,5 @@
 import {ArrowRight, Briefcase, Code, Presentation, Rocket, Trophy,} from "lucide-react";
+import {GraduationCap} from "lucide-react";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -28,29 +29,29 @@ const experiences = [
 const achievements = [
   {
     id: "ach-1",
-    title: "Hacksprint 2.0 (36-Hour National Hackathon)",
-    role: "Developer - 'Web Seeker'",
-    date: "February 2026",
+    title: "IEEE Computational Intelligence Society",
+    role: "Chairperson in SREC Student Branch",
+    date: "April 2026",
     description:
-      "Collaborated in a high-pressure environment to build and deploy 'Web Seeker'. Handled end-to-end development integrations during the 36-hour sprint.",
-    icon: <Rocket className="h-5 w-5 text-primary" />,
+      "Chossen as the Chairperson of the IEEE Computational Intelligence Society at SREC Student Branch, leading initiatives to promote research and development in AI and machine learning, organizing workshops, and fostering a collaborative environment for students and professionals.",
+    icon: <GraduationCap className="h-5 w-5 text-primary" />,
   },
   {
     id: "ach-2",
     title: "IEEEXtreme 19.0",
-    role: "Global Programming Competition",
-    date: "2025",
+    role: "Second Place Winner",
+    date: "October 2025",
     description:
-      "Competed in the globally recognized IEEE programming competition, solving complex algorithmic challenges and optimizing code under strict time constraints.",
+      "Placed second as a team at the college level in this globally recognized IEEE programming competition, solving complex algorithmic challenges and optimizing code under strict time constraints.",
     icon: <Code className="h-5 w-5 text-primary" />,
   },
   {
     id: "ach-3",
-    title: "Paper Presentation - Supply Chain Forecasting",
-    role: "Government College of Technology, Coimbatore",
-    date: "April 3, 2025",
+    title: "International Conference on Data Analytics and Insights (ICDAI-2025).",
+    role: "First Author & Presenter",
+    date: "September 2025",
     description:
-      "Presented research and technical implementations on 'Supply Chain Forecasting' to an academic panel, demonstrating the application of predictive modeling in logistics.",
+      "Presented on 'Supply Chain Forecasting for Inventory Management' in business terms, highlighting how predictive analytics can improve demand planning, reduce stockouts, and support smarter inventory decisions.",
     icon: <Presentation className="h-5 w-5 text-primary" />,
   },
   {
