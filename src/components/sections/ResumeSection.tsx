@@ -1,4 +1,5 @@
-import { Download, FileText } from "lucide-react";
+import { Download, FileText, Eye } from "lucide-react";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { FadeIn } from "@/components/ui/fade-in";
 
@@ -18,11 +19,23 @@ export function ResumeSection() {
           </p>
         </div>
 
-        <div className="relative z-10 shrink-0">
+        <div className="relative z-10 shrink-0 flex flex-col sm:flex-row gap-3">
           <Button
             asChild
             size="lg"
             className="font-semibold shadow-lg shadow-primary/25 rounded-full px-8 py-6 h-auto text-lg group"
+          >
+            <Link href="/resume">
+              <Eye className="mr-3 h-6 w-6 group-hover:-translate-y-1 transition-transform" />
+              View Resume
+            </Link>
+          </Button>
+
+          <Button
+            asChild
+            size="lg"
+            variant="outline"
+            className="font-semibold rounded-full px-8 py-6 h-auto text-lg group"
           >
             <a
               href="/Ashwanth_Senthilkumar.pdf"
