@@ -15,6 +15,13 @@ export default function ProjectsPage() {
     <main className="container mx-auto py-24 px-6 min-h-screen">
       <FadeIn>
         <div className="max-w-2xl mb-16">
+          <Link
+            href="/"
+            className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors mb-6"
+          >
+            <ArrowRight className="mr-2 h-4 w-4 rotate-180" />
+            Go to Home
+          </Link>
           <h1 className="text-4xl md:text-5xl font-heading font-bold tracking-tight mb-4 text-gradient">
             Projects & Case Studies
           </h1>
