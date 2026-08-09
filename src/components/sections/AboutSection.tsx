@@ -22,9 +22,9 @@ export function AboutSection() {
         <FadeIn
           direction="up"
           delay={0.2}
-          className="flex flex-col gap-6 md:col-span-1"
+          className="flex flex-col gap-6 md:col-span-1 items-center md:items-start"
         >
-          <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden border bg-muted">
+          <div className="relative w-full max-w-[220px] sm:max-w-[280px] md:max-w-none aspect-[3/4] rounded-2xl overflow-hidden border bg-muted">
             <Image
               src="/proPhoto.jpg"
               alt="Ashwanth Profile Picture"
