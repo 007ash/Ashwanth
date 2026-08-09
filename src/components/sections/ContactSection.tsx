@@ -32,7 +32,7 @@ export function ContactSection() {
 
               <div className="flex flex-wrap gap-3">
                 <Button asChild size="lg" className="rounded-full">
-                  <a href="mailto:6ashwanth007@gamil.com?subject=Let%27s%20connect">
+                  <a href="mailto:6ashwanth007@gmail.com?subject=Let%27s%20connect">
                     <Mail className="mr-2 h-4 w-4" />
                     Say hello
                   </a>

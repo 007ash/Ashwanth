@@ -36,7 +36,7 @@ export function Footer() {
             <FaLinkedin className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
           </Link>
           <Link href="#contact" aria-label="Contact">
-            <Mail className="h5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
+            <Mail className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
           </Link>
         </div>
       </div>

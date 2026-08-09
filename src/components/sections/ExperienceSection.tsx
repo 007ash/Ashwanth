@@ -33,7 +33,7 @@ const achievements = [
     role: "Chairperson in SREC Student Branch",
     date: "April 2026",
     description:
-      "Chossen as the Chairperson of the IEEE Computational Intelligence Society at SREC Student Branch, leading initiatives to promote research and development in AI and machine learning, organizing workshops, and fostering a collaborative environment for students and professionals.",
+      "Chosen as the Chairperson of the IEEE Computational Intelligence Society at SREC Student Branch, leading initiatives to promote research and development in AI and machine learning, organizing workshops, and fostering a collaborative environment for students and professionals.",
     icon: <GraduationCap className="h-5 w-5 text-primary" />,
   },
   {

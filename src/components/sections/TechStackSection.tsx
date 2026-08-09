@@ -22,7 +22,7 @@ export function TechStackSection() {
           {[
             {
               title: "Core Computer Science & Paradigms",
-              tools: ["Data Structures and Algorithms (DSA)", "Object-Oriented Programming (OOPs)", "DataBase Management (DBMS)", "System Design and Architecture"],
+              tools: ["Data Structures and Algorithms (DSA)", "Object-Oriented Programming (OOPs)", "Database Management (DBMS)", "System Design and Architecture"],
             },
             {
               title: "Specialized AI/ML",

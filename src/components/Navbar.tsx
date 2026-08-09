@@ -38,7 +38,7 @@ export function Navbar() {
         setIsScrolled(false);
       }
     };
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -71,7 +71,7 @@ export function Navbar() {
   }, []);
 
   const handleLinkClick = (
-    e: React.MouseEvent<HTMLAnchorElement>,
+    e: React.MouseEvent<HTMLElement>,
     path: string,
   ) => {
     if (path.startsWith("#")) {
@@ -119,6 +119,7 @@ export function Navbar() {
                 key={route.path}
                 href={route.path}
                 onClick={(e) => handleLinkClick(e, route.path)}
+                aria-current={isActive ? "page" : undefined}
                 className={cn(
                   "relative px-4 py-2 transition-colors duration-200 hover:text-foreground",
                   isActive ? "text-foreground" : "text-muted-foreground",
@@ -140,7 +141,7 @@ export function Navbar() {
             <Button
               variant="default"
               size="sm"
-              onClick={(e) => handleLinkClick(e as any, "#contact")}
+              onClick={(e) => handleLinkClick(e, "#contact")}
               className="font-semibold shadow-lg shadow-primary/25 rounded-full px-6"
             >
               Hire Me

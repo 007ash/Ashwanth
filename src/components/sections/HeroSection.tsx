@@ -25,21 +25,19 @@ export function HeroSection() {
             className="mb-6 flex items-center gap-2 px-4 py-1.5 text-sm font-medium border-primary/30 bg-primary/5 text-primary backdrop-blur-sm rounded-full"
           >
             <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+              <span className="animate-pulse absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
             </span>
             <span>Available for 2026 Opportunities</span>
           </Badge>
         </FadeIn>
 
-        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight font-heading">
-          <StaggeredText text="Hi, I'm Ashwanth" delay={0.2} />
-          <span >
-            <FadeIn delay={0.8} direction="up">
-              I build intelligent systems.
-            </FadeIn>
-          </span>
-        </h1>
+        <div className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight font-heading flex flex-col gap-2">
+          <h1><StaggeredText text="Hi, I'm Ashwanth" delay={0.2} /></h1>
+          <FadeIn delay={0.8} direction="up">
+            <span className="text-3xl md:text-5xl text-primary">I build intelligent systems.</span>
+          </FadeIn>
+        </div>
 
         <FadeIn delay={1.0}>
           <p className="text-lg md:text-xl text-muted-foreground mb-10 leading-relaxed max-w-xl">
@@ -102,8 +100,8 @@ export function HeroSection() {
         <div className="relative isolate w-64 h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px]">
           {/* Decorative Ring */}
           <div className="hero-hexagon-backdrop absolute inset-0 pointer-events-none z-0" />
-          <div className="hero-hexagon-ring absolute inset-0 border-[2px] border-primary/30 scale-105 animate-[spin_10s_linear_infinite] pointer-events-none z-20" />
-          <div className="hero-hexagon-ring hero-hexagon-ring-dashed absolute inset-3 border-[2px] border-dashed border-white/25 scale-110 animate-[spin_15s_linear_infinite_reverse] pointer-events-none z-20" />
+          <div className="hero-hexagon-ring absolute inset-0 border-[2px] border-primary/30 scale-105 motion-safe:animate-[spin_10s_linear_infinite] pointer-events-none z-20" />
+          <div className="hero-hexagon-ring hero-hexagon-ring-dashed absolute inset-3 border-[2px] border-dashed border-white/25 scale-110 motion-safe:animate-[spin_15s_linear_infinite_reverse] pointer-events-none z-20" />
 
           <div className="hero-hexagon-wrapper relative w-full h-full cursor-pointer group">
             {/* Ambient breathing glow behind the hexagon */}

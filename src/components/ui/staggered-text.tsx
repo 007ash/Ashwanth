@@ -47,8 +47,8 @@ export function StaggeredText({
   };
 
   return (
-    <motion.div
-      style={{ overflow: "hidden", display: "flex", flexWrap: "wrap" }}
+    <motion.span
+      style={{ overflow: "hidden", display: "inline-flex", flexWrap: "wrap" }}
       variants={container}
       initial="hidden"
       animate="visible"
@@ -64,6 +64,6 @@ export function StaggeredText({
           {word}
         </motion.span>
       ))}
-    </motion.div>
+    </motion.span>
   );
 }
