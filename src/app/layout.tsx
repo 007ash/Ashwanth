@@ -28,6 +28,11 @@ export const metadata: Metadata = {
   },
   description:
     "Portfolio and technical case studies by Ashwanth. Building intelligent systems and high-performance web applications.",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   openGraph: {
     title: "Ashwanth | AI/ML Developer",
     description: "Portfolio and technical case studies by Ashwanth.",

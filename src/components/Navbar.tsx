@@ -99,14 +99,8 @@ export function Navbar() {
         <Link
           href="#home"
           onClick={(e) => handleLinkClick(e, "#home")}
-          className="flex items-center space-x-2 relative group z-10"
+          className="relative z-10 flex items-center space-x-2"
         >
-          <span className="font-heading font-bold text-2xl tracking-tighter">
-            Ashwanth
-            <span className="text-primary group-hover:text-blue-400 transition-colors duration-300">
-              .dev
-            </span>
-          </span>
         </Link>
 
         {/* Desktop Navigation */}
