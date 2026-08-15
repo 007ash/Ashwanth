@@ -35,7 +35,7 @@ export function HeroSection() {
         <div className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight font-heading flex flex-col gap-2">
           <h1><StaggeredText text="Hi, I'm Ashwanth" delay={0.2} /></h1>
           <FadeIn delay={0.8} direction="up">
-            <span className="text-3xl md:text-5xl text-primary">I build intelligent systems.</span>
+            <span className="text-3xl md:text-5xl text-primary">Building what's next with AI.</span>
           </FadeIn>
         </div>
 
