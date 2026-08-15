@@ -6,7 +6,7 @@ export function AboutSection() {
   return (
     <section
       id="about"
-      className="container mx-auto py-24 px-6 max-w-4xl flex flex-col gap-12"
+      className="container mx-auto py-14 px-6 max-w-4xl flex flex-col gap-10"
     >
       {/* Header Section */}
       <FadeIn className="flex flex-col gap-4">
