@@ -11,7 +11,7 @@ export function HeroSection() {
   return (
     <section
       id="home"
-      className="relative container mx-auto px-6 pt-32 pb-20 md:py-40 flex flex-col-reverse md:flex-row items-center justify-between gap-12 max-w-6xl"
+      className="relative container mx-auto px-6 pt-24 pb-14 md:py-20 flex flex-col-reverse md:flex-row items-center justify-between gap-12 max-w-6xl"
     >
       {/* Glowing Ambient Background */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/20 rounded-full blur-[120px] -z-10 pointer-events-none" />

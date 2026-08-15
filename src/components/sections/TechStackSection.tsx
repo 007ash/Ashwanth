@@ -3,7 +3,7 @@ import { FadeIn } from "@/components/ui/fade-in";
 
 export function TechStackSection() {
   return (
-    <section id="tech-stack" className="relative py-24 mt-10">
+    <section id="tech-stack" className="relative py-14 mt-2">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/[0.02] to-transparent pointer-events-none" />
       <div className="container mx-auto px-6 max-w-6xl relative z-10">
         <FadeIn className="flex flex-col items-center mb-16 text-center">

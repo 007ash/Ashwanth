@@ -69,7 +69,7 @@ export function ExperienceSection() {
   return (
     <section
       id="experience"
-      className="container mx-auto py-24 px-6 max-w-4xl flex flex-col gap-16"
+      className="container mx-auto py-16 px-6 max-w-4xl flex flex-col gap-12"
     >
       {/* Header Section */}
       <FadeIn className="flex flex-col gap-4">

@@ -104,7 +104,7 @@ export function SkillsSection() {
   return (
     <section
       id="skills"
-      className="container mx-auto py-24 px-6 max-w-5xl flex flex-col gap-16"
+      className="container mx-auto py-16 px-6 max-w-5xl flex flex-col gap-12"
     >
       {/* Header Section */}
       <FadeIn className="flex flex-col gap-4">

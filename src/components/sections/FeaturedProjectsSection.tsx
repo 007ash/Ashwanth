@@ -11,7 +11,7 @@ export function FeaturedProjectsSection() {
     .slice(0, 3);
 
   return (
-    <section id="projects" className="container mx-auto px-6 py-32 max-w-6xl">
+    <section id="projects" className="container mx-auto px-6 py-20 max-w-6xl">
       <FadeIn className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
         <div>
           <div className="p-3 glass rounded-2xl mb-6 inline-flex">

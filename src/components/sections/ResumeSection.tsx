@@ -5,7 +5,7 @@ import { FadeIn } from "@/components/ui/fade-in";
 
 export function ResumeSection() {
   return (
-    <section id="resume" className="container mx-auto py-24 px-6 max-w-4xl">
+    <section id="resume" className="container mx-auto py-16 px-6 max-w-4xl">
       <FadeIn className="flex flex-col md:flex-row items-center justify-between gap-8 p-10 glass-card rounded-3xl relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-transparent pointer-events-none" />
 

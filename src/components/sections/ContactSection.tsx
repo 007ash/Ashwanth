@@ -6,7 +6,7 @@ import { FadeIn } from "@/components/ui/fade-in";
 
 export function ContactSection() {
   return (
-    <section id="contact" className="container mx-auto py-24 px-6 mb-20">
+    <section id="contact" className="container mx-auto py-16 px-6 mb-12">
       <FadeIn className="mx-auto max-w-6xl">
         <div className="relative overflow-hidden rounded-[2rem] border border-border/70 bg-card/80 p-8 shadow-sm backdrop-blur-lg md:p-10 lg:p-12 dark:shadow-[0_10px_50px_rgba(0,0,0,0.2)]">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(99,102,241,0.15),_transparent_55%)]" />
