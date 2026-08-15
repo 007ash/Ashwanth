@@ -41,6 +41,9 @@ export function AboutSection() {
             <p className="text-muted-foreground text-sm">
               Sri Ramakrishna Engineering College
             </p>
+            <p className="text-muted-foreground text-sm">
+              Coimabatore
+            </p>
           </div>
         </FadeIn>
 
@@ -55,13 +58,13 @@ export function AboutSection() {
               Engineering with Purpose
             </h3>
             <p>
-              I am a final-year Computer Science and Engineering student with an Honors specialization in Artificial Intelligence and Machine Learning. I am dedicated to building intelligent, full-stack software solutions that bridge the gap between complex AI systems and real-world application. 
+              Computer Science engineer specializing in AI & Machine Learning, building intelligent, full-stack solutions for real-world problems. 
             </p>
             <p>
-              Driven by an end-to-end approach to software engineering, I focus on turning complex technical challenges—from computer vision pipelines to scalable backend systems—into production-ready products.
+              Passionate about turning complex ideas into practical software and continuously learning through building.
             </p>
             <p>
-              ✨ <strong>Production Over Theory</strong>: Turning ideas into functional, real-world software solutions.
+              ✨ <strong>Production Over Theory</strong>: Turning ideas into real-world software solutions.
             </p>
             <p>
               🤝 <strong>Collaborative Growth</strong>: Driving innovation through teamwork and technical leadership.
