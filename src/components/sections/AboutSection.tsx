@@ -26,8 +26,9 @@ export function AboutSection() {
         >
           <div className="relative w-full max-w-[220px] sm:max-w-[280px] md:max-w-none aspect-[3/4] rounded-2xl overflow-hidden border bg-muted">
             <Image
-              src="/proPhoto.jpg"
+              src="/proPhoto2.jpg"
               alt="Ashwanth Profile Picture"
+              priority
               fill
               sizes="(max-width: 768px) 100vw, 33vw"
               className="object-cover"
